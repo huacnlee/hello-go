@@ -2,9 +2,9 @@ package main
 
 // package 外部可访问
 type Monkey struct {
-	Name   string
+	Name   string `json:"name"`
 	age    int
-	Gender int
+	Gender int `json:"gender"`
 }
 
 // package 内部可访问
